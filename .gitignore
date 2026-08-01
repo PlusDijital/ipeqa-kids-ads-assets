@@ -1,0 +1,50 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+*.secret
+secrets.*
+credentials.*
+service-account*.json
+*service_account*.json
+firebase-adminsdk*.json
+
+# Cloud/API credentials
+.aws/
+.gcloud/
+.azure/
+.npmrc
+.yarnrc
+.pypirc
+.netrc
+
+# Local and OS files
+.DS_Store
+Thumbs.db
+*.log
+logs/
+
+# App/build caches
+node_modules/
+dist/
+build/
+.next/
+.vercel/
+.cache/
+coverage/
+
+# Large/private working folders
+private/
+raw-private/
+exports-private/
